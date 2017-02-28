@@ -60,3 +60,12 @@ body {
   border: 1px solid white;
   border-radius: 7px;
 }
+
+.quoteButton{
+  border: none;
+}
+
+.quoteButton > a{
+  color: white !important;
+  font-family: helvetica;
+}
