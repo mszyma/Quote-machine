@@ -37,8 +37,20 @@ body {
 }
 
 .btn-link {
-  text-decoration: none;
+  border: 1px solid white;
+  border-radius: 7px;
 }
-.btn-link:hover {
+
+.btn-link:link, .btn-link:visited {
   text-decoration: none;
+  color: white;
+}
+.btn-link:active, .btn-link:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.btn-link:focus {
+  text-decoration: none;
+  color: white;
 }
