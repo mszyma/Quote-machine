@@ -61,11 +61,6 @@ body {
   border-radius: 7px;
 }
 
-.quoteButton{
+.quoteButton, .quoteButton:hover, .quoteButton:focus {
   border: none;
-}
-
-.quoteButton > a{
-  color: white !important;
-  font-family: helvetica;
 }
