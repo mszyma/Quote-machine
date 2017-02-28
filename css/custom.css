@@ -44,13 +44,19 @@ body {
 .btn-link:link, .btn-link:visited {
   text-decoration: none;
   color: white;
+  border: 1px solid white;
+  border-radius: 7px;
 }
 .btn-link:active, .btn-link:hover {
   text-decoration: none;
   color: white;
+  border: 1px solid white;
+  border-radius: 7px;
 }
 
 .btn-link:focus {
   text-decoration: none;
   color: white;
+  border: 1px solid white;
+  border-radius: 7px;
 }
