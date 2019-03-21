@@ -1,4 +1,4 @@
-var url = "http://quotes.stormconsultancy.co.uk/random.json";
+var url = "https://quotes.stormconsultancy.co.uk/random.json";
 
 $(document).ready(function() {
     $.getJSON(url, function(data) {
