@@ -1,4 +1,4 @@
-var url = "http://www.filltext.com/?rows=30&fname={firstName}&lname={lastName}&pretty=true&words={lorem|15}";
+var url = "https://www.filltext.com/?rows=30&fname={firstName}&lname={lastName}&pretty=true&words={lorem|15}";
 
 $(document).ready(function() {
     $.getJSON(url, function(data) {
